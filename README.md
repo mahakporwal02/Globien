@@ -1,6 +1,5 @@
 ## Blog single-page application written on MEVN stack (MongoDB, Express, Vue.js, Node.js)
 
-### [Live demo](https://warm-castle-13681.herokuapp.com/)
 
 ### Functions:
 
@@ -15,3 +14,25 @@
 * You can add personal info or edit it
 
 Application is based on Vue.js framework called [Vuetify.js](https://vuetifyjs.com/en/)
+
+### Installation
+
+* Frontend
+```
+cd vue-blog/front
+npm run start
+ ```
+
+* Backend
+```
+cd vue-blog
+npm run start
+ ```
+* Add .env file 
+```
+NODE_ENV = development
+PORT = 4050
+PROD_MONGODB = mongodb://localhost:27017/blog
+MONGOOSE_DEBUG = true
+SECRET = 29fe02c1-7de9-493a-b3c5-d33e56555a98
+```
